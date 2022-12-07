@@ -1,0 +1,155 @@
+* {
+  box-sizing: border-box;
+}
+
+.profile-box {
+  height: 657px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  background-color: #395992;
+}
+
+/*.lightModeActive {*/
+/*  background-color: rgb(255, 255, 255);*/
+/*}*/
+
+/*.profile-parent button {*/
+/*  margin-top: -600px;*/
+/*  margin-left: 0px;*/
+/*  border-radius: 25%;*/
+/*  background-color: antiquewhite;*/
+/*}*/
+
+.profile-parent {
+  display: flex;
+  align-items: center;
+  color: #efe7c8;
+}
+
+.profile-contents-me {
+  font-size: 35px;
+  color: #f3cb4f;
+}
+
+.profile-contents-me .icon {
+  margin-left: 2%;
+}
+
+.profile-contents-me .icon .Git {
+  margin-left: 1%;
+}
+
+.profile-contents .profile-contents-role{
+  margin-top: 20px;
+}
+
+.profile-contents-role .role-text {
+  font-style: italic;
+  font-size: 25px;
+}
+
+.profile-photo {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  box-shadow: 12px 12px 2px 1px rgba(144, 177, 217, 0.573);
+  border-radius: 50%;
+  border: solid antiquewhite;
+  height: 400px;
+  width: 400px;
+  margin: 0 0 12px 100px;
+}
+
+.photo-background {
+  height: 100%;
+  width: 100%;
+  background-image: url("./image/WechatIMG380.jpeg");
+  background-size: cover;
+  border-radius: 50%;
+  background-position: center;
+}
+
+@media only screen and (max-width: 1100px) {
+  .profile-contents {
+    width: 300px;
+    height: 100px;
+    margin-right: 0;
+    margin-left: 350px;
+  }
+
+  .profile-contents-me {
+    font-size: 27px;
+  }
+
+  .profile-contents-role .role-text {
+    font-size: 20px;
+  }
+
+  .profile-parent button {
+    position: fixed;
+    margin-top: -600px;
+    margin-left: 200px;
+    border-radius: 25%;
+    background-color: antiquewhite;
+  }
+
+
+
+  .profile-photo {
+    display: flex;
+    height: 300px;
+    width: 300px;
+    margin-left: 50px;
+    margin-right: 450px;
+  }
+
+  .photo-background {
+    height: 100%;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .profile-parent {
+    flex-direction: column-reverse;
+  }
+
+  .profile-contents {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    margin-left: 100px;
+    margin-right: 70px;
+  }
+
+  .profile-parent button {
+    margin-top: 100px;
+    position: relative;
+    margin-left: 20px;
+    border-radius: 25%;
+    background-color: antiquewhite;
+  }
+
+  .profile-contents-me{
+    margin-top: 20px;
+  }
+
+  .profile-contents-me .text {
+    font-size: 25px;
+
+  }
+
+  .profile-contents-role span {
+    font-size: 15px;
+  }
+
+  .profile-photo {
+    display: flex;
+    height: 300px;
+    width: 300px;
+    margin: 0 !important;
+  }
+}

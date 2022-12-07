@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #395992;
+}
+
+.education{
+    color: #102a59;
+    margin-top: 50px;
+    border-radius: 8px;
+    margin-left: 280px;
+    width: 900px;
+    height: 260px;
+    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.4);
+    text-align: center;
+    background-color: rgb(248, 238, 224);
+    padding: 2%;
+}
+
+@media only screen and (max-width: 1200px){
+    .education{
+        width: 700px;
+        text-align: left;
+    }
+}
+
+@media only screen and (max-width: 1000px){
+    .education{
+        width: 500px;
+        height: 220px;
+        margin-top: 75px;
+    }
+
+    .education h3{
+        font-size: 19px;
+    }
+
+    .education h5{
+        font-size: 17px;
+    }
+}
+
+@media only screen and (max-width: 790px){
+    .education{
+        width: 420px;
+        height: 220px;
+        margin-top: 75px;
+        margin-left: 180px;
+    }
+
+    .education h3{
+        font-size: 16px;
+    }
+
+    .education h5{
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 615px){
+    .education{
+        width: 300px;
+        height: 220px;
+        margin-left: 160px;
+    }
+
+    .education h3{
+        font-size: 14px;
+    }
+
+    .education h5{
+        font-size: 13px;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .education{
+        margin-left: 95px;
+    }
+}
+
+
+

@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+
+.navbar{
+    background: rgb(248, 238, 224);
+    display: flex;
+    align-items: center;
+    justify-content: right;
+
+
+}
+
+button{
+    border-radius: 10px;
+    border: 4px double #cccccc;
+    font-size: 15px;
+    margin-left: 15px;
+    color: #395992;
+    font-weight: bold;
+    width: 95px;
+}
+
+
+
+

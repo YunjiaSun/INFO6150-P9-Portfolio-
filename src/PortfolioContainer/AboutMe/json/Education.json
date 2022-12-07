@@ -1,0 +1,17 @@
+[
+  {
+    "name": "🏢 University: Northeastern University, San Jose, CA",
+    "degree": "📚 Degree: Master of Science",
+    "major": "👩🏻‍💻 Major: Information Systems",
+    "date-range": "🕐 Date: Jan. 2022 ~ Expected May 2024",
+    "course": "📝 Course: Application Modeling & Design (Java) | Data Science Engineering with Python | Web Design and User Experience| Application Engineering and Development"
+  },
+
+  {
+    "name": "\uD83C\uDFE2 University: The University of Leeds, Leeds, UK",
+    "degree": "\uD83D\uDCDA Degree: Master of Science",
+    "major": "\uD83D\uDC69\uD83C\uDFFB\u200D\uD83D\uDCBB Major: Global Supply Chain Management",
+    "date-range": "\uD83D\uDD50 Date: Sep. 2019 - Dec. 2020",
+    "course": "\uD83D\uDCDD Course: Global Logistics and Supply Chain Management | International Purchasing and Supply Management| Business Analysis | Operations and Information System Innovation"
+  }
+]
